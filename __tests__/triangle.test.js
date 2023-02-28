@@ -1,5 +1,22 @@
 import Triangle from './../src/triangle.js';
 
+// describe('show how beforeEach() works', () => {
+//   let reusableTriangle;
+
+//   beforeEach(() => {
+//     reusableTriangle = new Triangle(5, 5, 5);
+//   });
+
+//   test('should use the resuableTriangle and update the value of one side', () => {
+//     reusableTriangle.side1 = 6;
+//     console.log(reusableTriangle);
+//   });
+
+//   test('should show how this reusableTriangle is reset to sides of 5', () => {
+//     console.log(reusableTriangle);
+//   });
+// });
+
 describe('Triangle', () => {
 
   test('should correctly create a triangle object with three lengths', () => {
